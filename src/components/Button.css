@@ -1,0 +1,28 @@
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #0057b7;
+    color: #ffffff;
+  }
+  
+  .btn.login {
+    background-color: #fff;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+  }
+  
+  .btn.daftar {
+    background-color: #1e90ff;
+    color: #fff;
+  }
+  

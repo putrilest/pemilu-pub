@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .logo img {
+    height: 40px; /* Atur tinggi gambar sesuai kebutuhan */
+    margin-right: 10px; /* Atur jarak antara gambar dan teks */
+  }
+  
+  .header .logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e90ff;
+    margin: 0; /* Hilangkan margin bawaan */
+  }
+  
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    margin: 0 16px;
+  }
+  
+  .header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .header nav ul li a:hover {
+    padding : 10px;
+    background-color: #0057b7;
+    color: #ffffff;
+    border-radius:10px;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
